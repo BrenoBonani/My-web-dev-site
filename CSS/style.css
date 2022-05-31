@@ -1,0 +1,350 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #40514E;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    text-align: center;
+
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin: 50px auto 0px auto;
+}
+
+h2 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 50px 0px 50px 0px;
+}
+
+hr {
+    border-color: #789395;
+    border-style: dotted none none;
+    border-width: 8px;
+    margin: 120px auto;
+    width: 5%;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 20px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:hover {
+    color: #EAF6F6
+}
+
+
+.contact-me {
+    width: 50%;
+    margin: auto;
+}
+
+
+.top {
+    background-color: #e4f9f5;
+    height: 650px;
+    position: relative;
+    padding-top: 120px;
+    margin: 0 0 100px;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px 0px 20px;
+    margin-top: 100px;
+
+}
+
+.cloud-top {
+    position: absolute;
+    right: 250px;
+    top: 50px;
+    max-width: 100%;
+    height: auto;
+}
+
+.cloud-bot {
+    position: absolute;
+    left: 280px;
+    bottom: 250px;
+    max-width: 100%;
+    height: auto;
+}
+
+.nome1 {
+    color: #66BFBF;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+.p1 {
+    width: 50%;
+    margin: auto;
+}
+
+.copyright {
+    color: #EAF6F6;
+    margin-top: 50px;
+    font-size: 0.8rem;
+}
+
+.p3 {
+    margin-bottom: 100px;
+}
+
+.mountain1 {
+    position: relative;
+    bottom: 60px;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.skill1-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill2-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 0px 1px 3px #666666;
+    font-family: 'Montserrat', sans-serif;
+    color: #EAF6F6;
+    font-size: 15px;
+    padding: 8px 22px 9px 20px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+    
+
+    .cloud-bot {
+        left: 10%;
+      
+    
+
+    }
+
+    .cloud-top {
+        right: 10%;
+     }
+
+    
+    
+    .p1 {
+        width: 90%;
+    }
+
+    .contact-me {
+        width: 90%;
+    }
+
+    .skill-row {
+        width: 80%;
+    }
+
+    hr {
+        width: 15%;
+    }
+
+}
+
+@media (max-width: 672px) {
+    .mountain1 {
+        top: 4%;
+        text-align: center;
+
+    }
+
+    .cloud-bot {
+        bottom: 38%;
+        
+
+    }
+
+    .cloud-top {
+       top: 1%;
+       right: 2%;
+
+    }
+
+    .mobileH1 {
+        font-size: 4rem;
+    }
+
+    .nome1 {
+        font-size: 1.5rem;
+    }
+    
+    .p1 {
+        width: 90%;
+    }
+
+    .contact-me {
+        width: 90%;
+    }
+
+    .skill-row {
+        width: 80%;
+    }
+
+    hr {
+        width: 15%;
+    }
+
+}
+
+@media (max-width: 532px) {
+    .mountain1 {
+        display: none;
+        
+
+    }
+
+    .cloud-bot {
+        bottom: 12%;
+        left: 5%;
+        
+
+    }
+
+    .cloud-top {
+       top: 1%;
+       right: 2%;
+
+    }
+
+    .mobileH1 {
+        font-size: 3rem;
+    }
+
+    .nome1 {
+        font-size: 1.5rem;
+    }
+    
+    .p1 {
+        width: 90%;
+    }
+
+    .contact-me {
+        width: 90%;
+    }
+
+    .skill-row {
+        width: 90%;
+    }
+
+    .top {
+        
+        height: 400px;    
+    }
+
+    hr {
+        width: 15%;
+    }
+
+}
+
+
+
+
+
+
+
+/* Colocar 100% em fonte é = 16px. Então, caso você queira 90px em alguma fonte, seria o equivalente a 562.5%. A mesma coisa vale
+para o "em". 1em = 16px. Ou seja, para chegarmos nos mesmos 90px em alguma fonte, seria 5.652em.
+
+Usar pixel para fontes, deixa o texto estático. Caso uma pessoa tenha dificuldade de ler, mesmo aumentando, ele não se ajusta
+de acordo. Já usando % ou em para aumentar ou diminuir as fontes, elas se ajustam pq são dinâmicas.
+
+O rem (root em) do CSS3, te permite colocar o tamanho que você quiser e ignora outros tamanhos já especificados no corpo (body). 
+Já que tamanhos especificados no body, acabam por mudar por completo os tamanhos dos elementos dentro dele.
+
+É possível espaçar o texto com "line-height". Também é possível mudar a fonte para negrito (bold), leve (lighter) ou normal 
+ela com "font-weight".
+
+Com "text-decoration", é possível adicionar sublinhado, sublinhado com bolinhas (cores também, como red, blue, green). Além disso,
+dá para sublinhar tanto embaixo quanto em cima, além do sublinhado de onda (wavy). Bom para tirar sublinhado de links com (none).
+
+É possível diminuir o tamanho das imagens com "width" e especificando uma %. Além disso, é possível alinhar o texto para a 
+direita ou esquerda, usando "text-align: left or right;". Outra ferramenta do CSS é o "float", que te permite fazer uma
+imagem flutuar na pagina. Assim, conseguimos usar o "float: left or right;" para colocar uma imagem a direita ou a esquerda
+de um texto.
+
+Temos o anti-floating também, que é o "clear". Podemos usar o "clear: left or right;", para fazer o texto voltar ao lugar que
+estava antes da imagem de trocado de lugar.*/
+
+/*
+hr {
+    border-color: #f2f2f2;
+    border-style: dotted none none;
+    border-width: 6px;
+    width: 5%;
+}
+
+h1 {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+h3 {
+    color: #EAEAEA;
+    border-color:#EAEAEA;
+}
+*/
